@@ -1,0 +1,66 @@
+h1{
+  font-size: 40px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Poppins";
+
+}
+.name-highlight{
+   color: tomato;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 100%;
+}
+.half-width img{
+    width:100%;
+}
+
+.hire-me{
+
+
+    text-decoration: none;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.about{
+    background-color: white;
+}
+
+.about-me{
+    color: blue;
+}
+.about-web{
+    height: 60%;
+}
+.project{
+
+    color: lightsalmon;
+}
+.last-project{
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 4%;
+}
+.last-project img{
+    width: 100%;
+}
+.lastet-project{
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px white;
+    border-radius: 7px;
+    height: 50%;
+
+}
+.work{
+    color: white;
+}
