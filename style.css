@@ -5,8 +5,15 @@ body{
     margin: 0px;
     padding: 0px;
     font-family:"Poppins";
+    
+
 
 }
+.top-banner{
+    overflow: hidden;
+
+}
+
 .name-highlight{
    color: tomato;
 }
@@ -20,6 +27,9 @@ body{
 .half-width img{
     width:100%;
 }
+.last{
+    color: tomato;
+}
 
 .hire-me{
 
@@ -32,7 +42,24 @@ body{
     font-weight: 700;
 }
 .about{
-    background-color: white;
+    overflow: hidden;
+    
+    
+}
+.buton {
+    background-image: linear-gradient(tomato,orange);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+.work{
+    color: rgba(27, 5, 126, 0.925);
+}
+.last-project h1{
+    text-align: center;
 }
 
 .about-me{
@@ -42,25 +69,72 @@ body{
     height: 60%;
 }
 .project{
+   color: lightsalmon;
 
-    color: lightsalmon;
 }
 .last-project{
-    width: 20%;
-    float: left;
-    margin-left: 10%;
-    padding-left: 4%;
+    overflow: hidden;
+    
 }
-.last-project img{
-    width: 100%;
-}
-.lastet-project{
-    text-align: center;
-    box-shadow: 10px 10px 10px 10px white;
-    border-radius: 7px;
-    height: 50%;
 
-}
-.work{
+  .column {
+    float: left;
+    width: 25%;
+    height: 400px;
+    box-shadow: thistle;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid white;
+    margin: 50px;
+    overflow: hidden;
+  }
+  
+  }
+  .content {
+    background-color: white;
+    padding: 10px;
+    margin: 2px left;
+    box-shadow: wheat;
+  }
+  .content img{
+     width:100%;
+  }
+ .footer{
+   
+    overflow: hidden;
+     height:600px;
+     width: auto;
+ }
+ .job{
+   font-size: 40px;
+   display: inline-block;
+   color: white;
+   margin-top: 10%;
+   margin-left: 10%;
+   
+ }
+ .chat {
+     text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    border: none;
     color: white;
-}
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 30%;
+   
+    
+ }
+ .foot{
+    background-image: url(image/picture1.png);
+    background-size:100%;
+	background-repeat: no-repeat;
+	height:35%;
+	width:800px;
+	margin:auto;
+    }
+   .connection{
+       color: turquoise;
+       text-align: center;
+   }
+
